@@ -3,50 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login and Registration</title>
+    <title>Personal Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h2 class="logo">Anime verse</h2>
-       <nav class="navigation">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Service</a>
-        <a href="#">Contact</a>
-        <button class="btn-login">Login</button>
-
-       </nav>
+    <header >
+        <nav>
+            <ul>
+                <li><a href="#home" class="top">Home</a></li>
+                <li><a href="#about" class="top">About</a></li>
+                <li><a href="#Projects" class="top">Projects</a></li>
+                <li><a href="#contact" class="top">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 class="Welcome">Welcome to My Portfolio</h1>
     </header>
-    <div class="wrapper">
-        <div class="form-box Login">
-            <h2>Login</h2>
-            <form action="#">
-                <div class="input-box">
-                    <label class="icon" for="email">
-                        <ion-icon name="mail"></ion-icon>
-                    </label>
-                    <input type="email" id="email" name="email" placeholder="Email" required>
-                </div>
-                <div class="input-box">
-                    <label class="icon">
-                        <ion-icon name="lock-closed"></ion-icon>
-                    </label>
-                    <input type="password" id="password" name="password" placeholder="password" required>
-                </div>
-                <div class="remember-forgot">
-                    <label><input type="checkbox">Remember me</label>
-                    <a href="#">Forgot password?</a>
-                </div>
-                <button type="submit" class="btn">Login</button>
-                <div class="login-register">
-                    <p><a href="#" class="register-link"</p>
-                </div>
-            </form>
+
+    <section id="home" >
+        <h2 >Home</h2>
+        <p>Hello! I'm Mahesh sahu, a passionate learner in web development. </p>
+    </section>
+
+    <section id="about" >
+        <h2 >About Me</h2>
+        <p>I am a computer enggineering student with a keen interest in web development and design.
+            And also dedicated web development student with a strong passion for creating engaging and interactive web experiences. 
+            My journey in web development began with a curiosity for how websites work, and it has evolved into a commitment to mastering front-end technologies such as HTML, CSS, and JavaScript. 
+            I am continuously expanding my knowledge by exploring modern frameworks and tools.</p>
+    </section>
+
+    <section id="Projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Makeing a clone of Amazon shopping website.</p>
         </div>
-    </div>
-    <script src="script.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Clone of goggle webpage.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Birthdayb widhing site.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of  project.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of  project.</p>
+        </div>
+    </section>
+
+    <section id="contact" >
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:omm.com475@gmail.com">omm.com475@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mahesh sahu. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
